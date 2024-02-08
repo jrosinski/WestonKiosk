@@ -63,7 +63,7 @@ const dataModel = {
   },
 
   call() {
-    const defaultNumber = 'erica.talking@ivr.vc';
+    const defaultNumber = 'john@jrosinski.net';
     const number = new URLSearchParams(location.search).get('reception') || defaultNumber;
     location.href = `sip:${number}`;
   },
